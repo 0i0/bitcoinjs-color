@@ -1,4 +1,4 @@
-bitcoinjs-color
+Bitcoinjs-color
 ===============
 
 Tool to check colored bitcoin on bitcoinjs
@@ -49,7 +49,7 @@ Change the following:
 
 This is for Amazon AWS to work on port 80
 
-    sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3000
+    sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 3333
 
 Running
 
