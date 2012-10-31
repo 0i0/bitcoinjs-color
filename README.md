@@ -1,6 +1,8 @@
 Bitcoinjs-color
 ===============
 
+Based on: https://github.com/bitcoinjs/node-bitcoin-explorer
+
 Tool to check colored bitcoin on bitcoinjs
 
 Installation in Ubuntu:
