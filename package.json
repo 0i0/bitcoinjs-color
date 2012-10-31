@@ -1,0 +1,10 @@
+{ "name": "bitcoin-explorer"
+, "version": "0.0.1"
+, "description": "A block explorer clone built using BitcoinJS"
+, "author": "Lio Leo Hakim <0@0i0.io> (http://www.0i0.io)"
+, "dependencies": 
+  { "express": ">=2.4.4"
+  , "jsonrpc2": ">=0.1.0"
+  , "jade" :">=0.0.1"
+  } 
+}
