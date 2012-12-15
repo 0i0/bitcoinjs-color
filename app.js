@@ -7,7 +7,7 @@ var fs = require('fs');
 var init = require('bitcoinjs/daemon/init');
 var config = init.getConfig();
 
-var app = module.exports = express.createServer();
+var app = module.exports = express();
 
 var rpcClient = new RpcClient(config.jsonrpc.port, config.jsonrpc.host,
                               config.jsonrpc.username, config.jsonrpc.password);
@@ -23,10 +23,11 @@ rpc.on('connect', function () {
   });
 });
 
-var vm = require('vm')
+/*var vm = require('vm')
 var str = fs.readFileSync(__dirname + '/color.js', 'utf8');
 this.console = console
 vm.runInNewContext(str, this);
+*/
 
 // Configuration
 
